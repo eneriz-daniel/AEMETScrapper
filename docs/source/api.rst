@@ -1,7 +1,7 @@
 API
 ===
 
-.. automodule:: instin
+.. autoclass:: aemet_scrapper.AEMETScrapper
    :members:
    :undoc-members:
    :show-inheritance:
