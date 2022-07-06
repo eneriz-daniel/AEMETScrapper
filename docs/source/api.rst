@@ -1,7 +1,7 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
-
-   aemet_scrapper
+.. automodule:: instin
+   :members:
+   :undoc-members:
+   :show-inheritance:

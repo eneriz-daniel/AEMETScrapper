@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Welcome to AEMET Scrapper's documentation!
 ===================================
 
 This project is a scrapper for the `AEMET OpenData API <opendata.aemet.es>`_. It is based in just one class, `AEMETScrapper`, that enables daily climatological data download for any AEMET station.

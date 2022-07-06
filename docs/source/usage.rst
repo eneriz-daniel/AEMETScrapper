@@ -8,9 +8,10 @@ Requirements
 
 Only `tqdm` is requried. It is used to show progress bars in chunk-based downloads.
 
-C
+
 JSON format download
 --------------------
+
 .. code-block:: python
 
    from aemet_scrapper import AEMETScrapper
