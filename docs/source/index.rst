@@ -1,10 +1,7 @@
 Welcome to Lumache's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This project is a scrapper for the `AEMET OpenData API <opendata.aemet.es>`_. It is based in just one class, `AEMETScrapper`, that enables daily climatological data download for any AEMET station.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -20,3 +17,7 @@ Contents
 
    usage
    api
+
+Contributing
+------------
+This is a very simple but useful project. It is only limited to the daily climatological data download, but it can be easily extended to other OpenData API information values. If you want to contribute, please, open an issue or a pull request.
