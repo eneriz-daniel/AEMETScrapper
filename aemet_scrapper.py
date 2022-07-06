@@ -168,11 +168,11 @@ class AEMETScrapper:
         with open(csv_filename, "w") as f:
             # Use all the keys in the last entry as headers
             keys = data[-1].keys()
-            f.write(",".join(keys) + "\n")
+            f.write(";".join(keys) + "\n")
             for row in data:
                 # Use NaN for missing values
                 row = [row.get(k, "NaN") for k in keys]
-                f.write(",".join(row) + "\n")
+                f.write(";".join(row) + "\n")
     
     def download_csv(self, start_date, end_date, station_id, csv_filename = "data.csv"):
         """Downloads the data and saves it in a csv file.
